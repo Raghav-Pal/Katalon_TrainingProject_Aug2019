@@ -25,7 +25,7 @@ WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword
 
 WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/b_Time'))
+WebUI.click(findTestObject('Page_OrangeHRM/input_Username_txtPassword'))
 
 WebUI.click(findTestObject('Page_OrangeHRM/b_Performance'))
 

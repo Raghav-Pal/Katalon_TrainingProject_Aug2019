@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>cc21be04-691e-43a0-84b1-2d707661c111</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Day1/Test_ScriptMode</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
