@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for manual mode demo</description>
+   <name>Test_ManualMode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4722d8a-0288-4e95-8214-9bbb98ecafcb</testCaseGuid>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>ce635be6-4972-42ee-b6ac-17ef4aab9c2f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>eaea7a57-9099-4027-b504-87303d234566</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
