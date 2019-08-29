@@ -20,30 +20,30 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('WEB/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('WEB/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center'), 
+WebUI.selectOptionByValue(findTestObject('WEB/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center'), 
     'Hongkong CURA Healthcare Center', true)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission'))
+WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs'))
+WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/input_Medicaid_programs'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar'))
+WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar'))
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/td_28'))
+WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/td_28'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'This is a sample comment')
+WebUI.setText(findTestObject('WEB/Page_CURA Healthcare Service/textarea_Comment_comment'), 'This is a sample comment')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go to Homepage'))
+WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/a_Go to Homepage'))
 
 WebUI.closeBrowser()
 

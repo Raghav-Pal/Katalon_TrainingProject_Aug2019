@@ -13,25 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+CucumberKW.runFeatureFile('Include/features/Login.feature')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
-
-not_run: WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('WEB/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username)
-
-WebUI.setEncryptedText(findTestObject('WEB/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('WEB/Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.click(findTestObject('WEB/Page_OrangeHRM/input_Username_txtPassword'))
-
-WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Performance'))
-
-WebUI.click(findTestObject('WEB/Page_OrangeHRM/a_Welcome Admin'))
-
-WebUI.click(findTestObject('WEB/Page_OrangeHRM/a_Logout'))
-
-WebUI.closeBrowser()
+CucumberKW.runFeatureFolder('Include/features')
 

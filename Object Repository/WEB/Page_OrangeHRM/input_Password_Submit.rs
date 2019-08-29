@@ -6,15 +6,15 @@
    <elementGuidId>83e5a963-3ee6-47db-b48f-9346e957c8c8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='btnLogin']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'btnLogin']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='btnLogin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

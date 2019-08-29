@@ -6,12 +6,12 @@
    <elementGuidId>57cc1ed4-d55c-4b67-8780-8e7eabb92f81</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'org/openqa/selenium/package-frame.html' and (text() = 'org.openqa.selenium' or . = 'org.openqa.selenium') and @ref_element = 'Object Repository/Page_Overview/frame_Capture object_packageListFrame']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'org.openqa.selenium')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'org/openqa/selenium/package-frame.html' and (text() = 'org.openqa.selenium' or . = 'org.openqa.selenium') and @ref_element = 'Object Repository/Page_Overview/frame_Capture object_packageListFrame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Overview/frame_Capture object_packageListFrame</value>
+      <value>Object Repository/WEB/Page_Overview/frame_Capture object_packageListFrame</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

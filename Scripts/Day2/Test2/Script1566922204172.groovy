@@ -18,15 +18,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('WEB/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), GlobalVariable.USERNAME)
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), GlobalVariable.PASSWORD)
+WebUI.setEncryptedText(findTestObject('WEB/Page_OrangeHRM/input_Username_txtPassword'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/b_Performance'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Performance'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Recruitment'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Recruitment'))
 
 WebUI.closeBrowser()
 
